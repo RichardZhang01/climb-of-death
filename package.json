@@ -1,0 +1,45 @@
+{
+  "name": "climb-of-death",
+  "version": "1.0.0",
+  "description": "Description",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardZhang01/tech-blog.git"
+  },
+  "keywords": [
+    "full-stack",
+    "MVC",
+    "handlebars",
+    "express",
+    "node",
+    "bcrypt",
+    "mysql2",
+    "mysql",
+    "sequelize",
+    "javascript",
+    "CSS",
+    "HTML"
+  ],
+  "author": "Sachmilan Gangarh, Trent Dickson, Richard Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardZhang01/climb-of-death/issues"
+  },
+  "homepage": "https://github.com/RichardZhang01/climb-of-death#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.0"
+  }
+}
