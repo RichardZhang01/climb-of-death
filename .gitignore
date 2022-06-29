@@ -2,4 +2,6 @@ node_modules
 .env
 .DS_Store
 .vscode
+models/Character.js
+models/Adventure.js
 package-lock.json

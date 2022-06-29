@@ -15,7 +15,7 @@ Choice.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-        scenario_id: {
+        parent_scenario_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
