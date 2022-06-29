@@ -17,6 +17,7 @@ Scenario.init(
         },
         choice_id: {
             type: DataTypes.INTEGER,
+            allowNull: true,
             references: {
                 model: 'choice',
                 key: 'id'
