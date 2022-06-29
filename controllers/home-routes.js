@@ -6,7 +6,7 @@ homepage.get('/', (req, res) => {
         res.redirect('/gamepage');
         return;
     }
-    res.render('homepage');
+    res.render('homepage', { loggedIn: req.session.loggedIn });
 });
 
 homepage.get('/login', (req, res) => {
