@@ -1,27 +1,15 @@
 const homepage = require('express').Router();
-// const { User } = require('../models');
+const loggedIn = require('../utils/notLoggedIn')
 
-homepage.get('/', (req, res) => {       
-    if (req.session.loggedIn) {
-        res.redirect('/gamepage');
-        return;
-    }
+homepage.get('/', loggedIn, (req, res) => {       
     res.render('homepage', { loggedIn: req.session.loggedIn });
 });
 
-homepage.get('/login', (req, res) => {
-    if (req.session.loggedIn) {
-        res.redirect('/gamepage');
-        return;
-    }
+homepage.get('/login', loggedIn, (req, res) => {
     res.render('login');
 });
 
-homepage.get('/signup', (req, res) => {
-    if (req.session.loggedIn) {
-        res.redirect('/gamepage');
-        return;
-    }
+homepage.get('/signup', loggedIn, (req, res) => {
     res.render('signup');
 });
 

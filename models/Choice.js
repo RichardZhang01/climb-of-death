@@ -23,14 +23,10 @@ Choice.init(
                 key: 'id'
             }
         },
-        // child_scenario_id: {
-        //     type: DataTypes.INTEGER,
-        //     allowNull: false,
-        //     references: {
-        //         model: 'scenario',
-        //         key: 'id'
-        //     }
-        // }
+        child_scenario_id: {
+            type: DataTypes.INTEGER,
+            allowNull: true,
+        }
     },
     
     {

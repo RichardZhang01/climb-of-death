@@ -15,14 +15,14 @@ Scenario.init(
             type: DataTypes.TEXT,
             allowNull: false
         },
-        choice_id: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-            references: {
-                model: 'choice',
-                key: 'id'
-            }
-        }
+        // choice_id: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: true,
+        //     references: {
+        //         model: 'choice',
+        //         key: 'id'
+        //     }
+        // }
         // adventure_id: {
         //     type: DataTypes.INTEGER,
         //     references: {
