@@ -74,8 +74,6 @@ const choiceData = [
     }
 ]
 
-const seedData = () => {
-    Choice.bulkCreate(choiceData);
-}
+const seedChoices = () => Choice.bulkCreate(choiceData);
 
-module.exports = seedData;
+module.exports = seedChoices;
