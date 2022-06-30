@@ -6,7 +6,7 @@ gamepage.get('/', withAuth, async (req, res) => {
 
     try {
 
-        const scenarioData = await Scenario.findbyPk(1, { include: Choice } );
+        const scenarioData = await Scenario.findByPk(1, { include: Choice } );
         
         if (!scenarioData) {
             res.status(404).json({ 
@@ -14,7 +14,8 @@ gamepage.get('/', withAuth, async (req, res) => {
             });
         };
 
-        res.render('gamepage', { scenarioData, loggedIn: req.session.loggedIn });
+        const scenario = scenarioData.get({ plain: true });
+        res.render('gamepage', { scenario, loggedIn: req.session.loggedIn });
         
     } catch (err) {
 
@@ -29,7 +30,7 @@ gamepage.get('/:id', withAuth, async (req, res) => {
 
     try {
 
-        const scenarioData = await Scenario.findbyPk(req.params.id, { include: Choice } );
+        const scenarioData = await Scenario.findByPk(req.params.id, { include: Choice } );
         
         if (!scenarioData) {
             res.status(404).json({ 
@@ -37,7 +38,8 @@ gamepage.get('/:id', withAuth, async (req, res) => {
             });
         };
 
-        res.render('gamepage', { scenarioData, loggedIn: req.session.loggedIn });
+        const scenario = scenarioData.get({ plain: true });
+        res.render('gamepage', { scenario, loggedIn: req.session.loggedIn });
         
     } catch (err) {
 

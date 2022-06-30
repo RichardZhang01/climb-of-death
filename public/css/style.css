@@ -1,5 +1,9 @@
-body{
+html {
     background-color: rgb(16, 14, 14);
+}
+
+body{
+    
     font-family: Nosifer;
     color: white;
 }

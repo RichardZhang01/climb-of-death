@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> 
     <link rel="stylesheet" type="text/css" href="/css/jass.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> 
 </head>
     
 <body>
     
     <nav>
-        {{#if loggedin}}
-            <a href="/logout">Log Out</a>
+        {{#if loggedIn}}
+            <a id="logout">Log Out</a>
             {{else}}
             <a href="/login" class="">Log In</a>
             <a href="/signup" class="">Sign up</a>
