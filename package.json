@@ -24,7 +24,8 @@
     "sequelize",
     "javascript",
     "CSS",
-    "HTML"
+    "HTML",
+    "Bulma"
   ],
   "author": "Sachmilan Gangarh, Trent Dickson, Richard Zhang",
   "license": "MIT",
@@ -34,6 +35,7 @@
   "homepage": "https://github.com/RichardZhang01/climb-of-death#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "bulma": "^0.9.4",
     "connect-session-sequelize": "^7.1.4",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
