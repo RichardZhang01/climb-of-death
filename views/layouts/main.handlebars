@@ -11,13 +11,20 @@
 </head>
     
 <body>
-    <header>
-        <h1 class="">Only the Bravest will survive!!!</h1>
-    </header>
+    
     <nav>
-        <a href="" class="">Login</a>
-        <a href="" class="">Sign up</a>
+        {{#if loggedin}}
+            <a href="/logout">Log Out</a>
+            {{else}}
+            <a href="/login" class="">Log In</a>
+            <a href="/signup" class="">Sign up</a>
+        {{/if}}
     </nav>
+
+    <header class="main-heading">
+        <h1>Climb of Death</h1>
+        <h2>Only the Bravest will survive</h2>
+    </header>
 
     <main class="content">
         {{{ body }}}
