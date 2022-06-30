@@ -3,13 +3,14 @@ const { User } = require('../../models');
 
 users.post('/', async (req, res) => {
 
+  //sign up
     try {
       const dbUserData = await User.create({
         username: req.body.username,
         email: req.body.email,
         password: req.body.password,
       });
-  
+//login
       req.session.save(() => {
         req.session.loggedIn = true;
         req.session.user_id = dbUserData.id;
