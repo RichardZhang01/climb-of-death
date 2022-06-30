@@ -2,11 +2,11 @@ const gamepage = require('express').Router();
 const withAuth = require('../utils/auth');
 const { User, Scenario, Choice } = require('../models');
 
-gamepage.get('/', withAuth, (req, res) => { 
+gamepage.get('/', withAuth, async (req, res) => { 
 
     try {
 
-        const scenarioData = await Scenario.findbyPK(1, { include: Choice } );
+        const scenarioData = await Scenario.findbyPk(1, { include: Choice } );
         
         if (!scenarioData) {
             res.status(404).json({ 
@@ -25,11 +25,11 @@ gamepage.get('/', withAuth, (req, res) => {
 
 });
 
-gamepage.get('/:id', withAuth, (req, res) => { 
+gamepage.get('/:id', withAuth, async (req, res) => { 
 
     try {
 
-        const scenarioData = await Scenario.findbyPK(req.params.id, { include: Choice } );
+        const scenarioData = await Scenario.findbyPk(req.params.id, { include: Choice } );
         
         if (!scenarioData) {
             res.status(404).json({ 
