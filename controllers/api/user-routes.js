@@ -66,6 +66,7 @@ users.post('/login', async (req, res) => {
     
 });
 
+// log out
 users.post('/logout', (req, res) => {
   if (req.session.loggedIn) {
     req.session.destroy(() => {
