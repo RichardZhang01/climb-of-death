@@ -24,8 +24,6 @@ const scenarioData = [
     },
 ]
 
-const seedData = () => {
-    Scenario.bulkCreate(scenarioData);
-}
+const seedScenarios = () => Scenario.bulkCreate(scenarioData);
 
-module.exports = seedData;
+module.exports = seedScenarios;
