@@ -34,11 +34,4 @@ Choice.belongsTo(Scenario, {
     foreignKey: 'parent_scenario_id'
 });
 
-Choice.hasOne(Scenario, {
-    foreignKey: 'choice_id'
-});
-Scenario.belongsTo(Choice, {
-    foreignKey: 'choice_id'
-});
-
 module.exports = { User, Scenario, Choice };
