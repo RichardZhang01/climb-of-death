@@ -1,21 +1,11 @@
-<section class="container">
-  
-  <section>
-    <h1 class="">Only the Bravest will survive!!! </h1>
-  </section>
-
-  <section class="flex-row justify-center">
-    {{scenario}}
-  </section>
+<section class="flex-row justify-center">
+    {{scenario.content}}
 </section>
-<sec class="menu-container">
- 
-  
-  {{#each choices}}
 
-    <sec class="dish col-md-5">
+<section class="menu-container">  
+  {{#each scenario.choices}}
+    <section class="dish col-md-5">
         <button>{{choice}}</button>
-    </sec>
-    
+    </section> 
   {{/each}}
-</sec>
+</section>
