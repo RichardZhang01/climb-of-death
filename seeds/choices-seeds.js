@@ -71,7 +71,192 @@ const choiceData = [
         choice: `Slowly approach the door of The Flying Fish and brace yourself for social engagement within the inn and tavern.`, 
         parent_scenario_id: 7,
         child_scenario_id: 15
-    }
+    },
+    {
+        choice: `Talk to the large ogre bathing with plenty of bubbles`, 
+        parent_scenario_id: 8,
+        child_scenario_id: 16
+    },
+    {
+        choice: `Talk to the small gnome bathing with plenty of bubbles.`, 
+        parent_scenario_id: 8,
+        child_scenario_id: 17
+    },
+    {
+        choice: `Continue talking to the Bartender.`, 
+        parent_scenario_id: 9,
+        child_scenario_id: 18
+    },
+    {
+        choice: `Turn towards the drinking and food hall and approach a wizened old man with graying hair. He might know something`, 
+        parent_scenario_id: 9,
+        child_scenario_id: 19
+    },
+    {
+        choice: `Thank the yellow Ogre and head out of the Wash & Board. Take the secret pathway that the Ogre told you about.`, 
+        parent_scenario_id: 10,
+        child_scenario_id: 20
+    },
+    {
+        choice: `Get dressed, thank the gnome, and leave the bathhouse. As the sea breeze touches your freshly washed body you clasp the stone and squeeze it between your fist.`, 
+        parent_scenario_id: 11,
+        child_scenario_id: 21
+    },
+    {
+        choice: `Nod and accept the Bartenders knowledge. Ask for a map of the island and ask the Bartender to point out the goblin base camp. Say your goodbyes and head towards the Goblin Base Camp.`, 
+        parent_scenario_id: 12,
+        child_scenario_id: 22
+    },
+    {
+        choice: `Wake up with a dry mouth and no means of getting rid of your headache. Take in your surroundings.`, 
+        parent_scenario_id: 13,
+        child_scenario_id: 23
+    },
+    {
+        choice: `Turn left at the blue stone.`, 
+        parent_scenario_id: 14,
+        child_scenario_id: 24
+    },
+    {
+        choice: `Turn right at the blue stone.`, 
+        parent_scenario_id: 14,
+        child_scenario_id: 25
+    },
+    {
+        choice: `Stone order: blue, green and red.`, 
+        parent_scenario_id: 15,
+        child_scenario_id: 26
+    },
+    {
+        choice: `Stone order: green, blue and red.`, 
+        parent_scenario_id: 15,
+        child_scenario_id: 27
+    },
+    {
+        choice: `Stone order: red, green and blue.`, 
+        parent_scenario_id: 15,
+        child_scenario_id: 28
+    },
+    {
+        choice: `Accept the Goblin leader’s navigation and head up the mountain path.`, 
+        parent_scenario_id: 16,
+        child_scenario_id: 29
+    },
+    {
+        choice: `Deny the Goblin leader and ask for a place to rest before heading up the mountain alone.`, 
+        parent_scenario_id: 16,
+        child_scenario_id: 30
+    },
+    {
+        choice: `Stone order: blue, green and red.`, 
+        parent_scenario_id: 17,
+        child_scenario_id: 31
+    },
+    {
+        choice: `Stone order: green, blue and red.`, 
+        parent_scenario_id: 17,
+        child_scenario_id: 32
+    },
+    {
+        choice: `Stone order: red, green and blue.`, 
+        parent_scenario_id: 17,
+        child_scenario_id: 33
+    },
+    {
+        choice: `Stone order: blue, green and red.`, 
+        parent_scenario_id: 18,
+        child_scenario_id: 34
+    },
+    {
+        choice: `Stone order: green, blue and red.`, 
+        parent_scenario_id: 18,
+        child_scenario_id: 35
+    },
+    {
+        choice: `Stone order: red, green and blue.`, 
+        parent_scenario_id: 18,
+        child_scenario_id: 36
+    },
+    // {
+    //     // Try again! Death.
+    //     choice: NULL, 
+    //     parent_scenario_id: 19,
+    //     child_scenario_id: NULL
+    // },
+    {
+        choice: `Follow the Goblin leader up the mountain path.`, 
+        parent_scenario_id: 20,
+        child_scenario_id: 38
+    },
+    {
+        choice: `Rest and continue up the Mountain of Death alone.`, 
+        parent_scenario_id: 21,
+        child_scenario_id: 39
+    },
+    {
+        choice: `Stone order: blue, green and red.`, 
+        parent_scenario_id: 22,
+        child_scenario_id: 40
+    },
+    {
+        choice: `Stone order: green, blue and red.`, 
+        parent_scenario_id: 22,
+        child_scenario_id: 41
+    },
+    {
+        choice: `Stone order: red, green and blue.`, 
+        parent_scenario_id: 22,
+        child_scenario_id: 42
+    },
+    {
+        choice: `Head left up the path.`, 
+        parent_scenario_id: 23,
+        child_scenario_id: 43
+    },
+    {
+        choice: `Head right up the path.`, 
+        parent_scenario_id: 23,
+        child_scenario_id: 44
+    },
+    {
+        choice: `Stone order: blue, green and red.`, 
+        parent_scenario_id: 24,
+        child_scenario_id: 45
+    },
+    {
+        choice: `Stone order: green, blue and red.`, 
+        parent_scenario_id: 24,
+        child_scenario_id: 46
+    },
+    {
+        choice: `Stone order: red, green and blue.`, 
+        parent_scenario_id: 24,
+        child_scenario_id: 47
+    },
+    // Mountain of Death, Alone, Turn Right, Death
+    // {
+    //     choice: ``, 
+    //     parent_scenario_id: 25,
+    //     child_scenario_id: 48
+    // },
+    // Stone Gargoyles, order: BLUE GREEN RED [DEAD]
+    // {
+    //     choice: ``, 
+    //     parent_scenario_id: 26,
+    //     child_scenario_id: 49
+    // },
+    // Stone Gargoyles, order: GREEN BLUE RED [DEAD]
+    // {
+    //     choice: ``, 
+    //     parent_scenario_id: 27,
+    //     child_scenario_id: 50
+    // },
+    // Stone Gargoyle, Stone order: red, green and blue. [ALIVE]
+    // {
+    //     choice: ``, 
+    //     parent_scenario_id: 27,
+    //     child_scenario_id: 50
+    // },
 ]
 
 const seedChoices = () => Choice.bulkCreate(choiceData);
