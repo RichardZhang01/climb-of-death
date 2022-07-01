@@ -5,7 +5,12 @@
 <section class="menu-container">  
   {{#each scenario.choices}}
     <section class="dish col-md-5">
-        <a href="/gamepage/{{child_scenario_id}}" class="button">{{choice}}</a
+        <a href="/gamepage/{{child_scenario_id}}" class="button">{{choice}}</a>
     </section> 
   {{/each}}
+  {{#if gameEnd}}
+    <section class="dish col-md-5">
+        <a href="/gamepage" class="button">Start Over</a>
+    </section> 
+  {{/if}}
 </section>
