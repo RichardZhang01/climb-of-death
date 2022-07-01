@@ -1,6 +1,7 @@
 const gamepage = require('express').Router();
 const withAuth = require('../utils/auth');
 const { User, Scenario, Choice } = require('../models');
+const users = require('./api/user-routes');
 
 gamepage.get('/', withAuth, async (req, res) => { 
 
@@ -13,6 +14,8 @@ gamepage.get('/', withAuth, async (req, res) => {
                 message: "No scenario data found",
             });
         };
+
+        await User.update({ scenario_id: 1}, { where: { id: req.session.user_id } });
 
         const scenario = scenarioData.get({ plain: true });
         res.render('gamepage', { 
@@ -32,7 +35,7 @@ gamepage.get('/', withAuth, async (req, res) => {
 gamepage.get('/:id', withAuth, async (req, res) => { 
 
     try {
-        let gameover = false;
+        let gameOver = false;
         const scenarioData = await Scenario.findByPk(req.params.id, { include: Choice } );
         
         if (!scenarioData) {
@@ -41,14 +44,16 @@ gamepage.get('/:id', withAuth, async (req, res) => {
             });
         };
 
+        await User.update({ scenario_id: req.params.id}, { where: { id: req.session.user_id } });
+
         const scenario = scenarioData.get({ plain: true });
         if (!scenario.choices.length) {
-            gameover = true;
+            gameOver = true;
         }
         res.render('gamepage', { 
             scenario, 
             loggedIn: req.session.loggedIn,
-            gameEnd: gameover 
+            gameEnd: gameOver 
         });
         
     } catch (err) {

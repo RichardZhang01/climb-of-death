@@ -16,7 +16,7 @@ async function loginFormHandler(event) {
 
         if (response.ok) {
             function replaceLocation() {
-                document.location.replace('/gamepage')
+                document.location.replace('/dashboard')
             }
             setTimeout(replaceLocation, 500);
         } else {

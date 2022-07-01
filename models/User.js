@@ -35,6 +35,13 @@ User.init(
             validate: {
                 min: 8,
             },
+        },
+        scenario_id: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'scenario',
+                key: 'id'
+            }
         }
     },
 

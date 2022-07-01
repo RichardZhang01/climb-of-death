@@ -1,5 +1,5 @@
 const homepage = require('express').Router();
-const loggedIn = require('../utils/notLoggedIn')
+const loggedIn = require('../utils/loggedIn')
 
 homepage.get('/', loggedIn, (req, res) => {       
     res.render('homepage', { loggedIn: req.session.loggedIn });
