@@ -1,4 +1,59 @@
-<form class="login-form">
+<section class="columns is-centered">
+    <form class="login-form mx-3 column is-half">
+        
+        <div class="field">
+            <label class="label has-text-light" for="username-login">Username</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-success" type="text" id="username-login" placeholder="Username">
+                <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label has-text-light" for="password-login">Password</label>
+            <p class="control has-icons-left">
+                <input class="input" type="password" id="password-login" placeholder="Password">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+            </p>
+        </div>
+
+        <div class="field">
+            <div class="control">
+                <button type="submit" class="button is-link is-outlined has-text-light is-large is-responsive mt-4 mb-1">Log In</button>
+            </div>
+            <p class="has-text-light">New here? <a class="has-text-link" href="/signup">Sign Up</a></p>
+        </div>
+    </form>
+</section>
+
+
+{{!-- <form class="login-form">
+    <div class="columns is centered">
+        <div class="columns is half">
+            <label class="label is-centered" for="username-login">Username:</label><br>
+            <input type="text" id="username-login" class="input is-fullwidth" placeholder="Username"><br>
+        </div>
+
+        <div class="columns is-half">
+            <label class="label is-centered" for="password-login">Password:</label><br>
+            <input type="password" name="pwd" class="input is-medium" id="password-login" placeholder="Password">
+        </div>
+    </div>
+
+    <div class="submitbtn is-centered">
+        <button type="submit" class="submit button is-danger is-large is-outlined">Log In</button>
+    </div>
+    New here? <a href="/signup">Sign Up</a>
+</form> --}}
+
+<script src="/js/login.js"></script>
+
+
+{{!-- <form class="login-form">
     <label class="label" for="username-login">Username:</label><br>
     <input type="text" id="username-login" class="input" placeholder="Username"><br>
     <label class="label" for="password-login">Password:</label><br>
@@ -9,4 +64,4 @@
     New here? <a href="/signup">Sign Up</a>
 </form>
 
-<script src="/js/login.js"></script>
+<script src="/js/login.js"></script> --}}
