@@ -27,6 +27,13 @@ const Choice = require('./Choice');
 //     foreignKey: 'scenario_id'
 // });
 
+Scenario.hasMany(User, {
+    foreignKey: 'scenario_id'
+});
+User.belongsTo(Scenario, {
+    foreignKey:'scenario_id'
+});
+
 Scenario.hasMany(Choice, {
     foreignKey: 'parent_scenario_id'
 });

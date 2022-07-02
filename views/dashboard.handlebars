@@ -1,0 +1,9 @@
+{{#if previousAdventure}}
+    <section class="flex-row justify-center">
+            <a href="/gamepage/{{userData.scenario_id}}" class="button">Continue Adventure</a>
+    </section> 
+{{else}}
+    <section class="flex-row justify-center">
+        <a href="/gamepage" class="button">Start New Adventure</a>
+    </section>
+{{/if}}
