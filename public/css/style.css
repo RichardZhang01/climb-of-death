@@ -11,6 +11,7 @@ body{
 nav {
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 nav a {
@@ -103,3 +104,36 @@ section {
 .sub-heading{
     font-family: Nosifer;
 }
+/* handlebars */
+/* .navbar{
+    text-decoration: none;
+} */
+
+.main-heading{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-heading{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Log-in{
+    padding-right: 425px;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+}
+
+#scenario{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    color: white;
+}
+

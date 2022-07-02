@@ -1,4 +1,46 @@
-<form class="signup-form">
+<section class="columns is-centered">
+    <form class="signup-form mx-3 column is-half">
+        
+        <div class="field">
+            <label class="label has-text-light" for="username-signup">Username</label>
+            <div class="control has-icons-left">
+                <input class="input is-success" type="text" id="username-signup" placeholder="Username">
+                <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label has-text-light" for="email-signup">Email</label>
+            <div class="control has-icons-left">
+                <input class="input is-danger" type="email" id="email-signup" placeholder="Email">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label has-text-light" for="password-signup">Password</label>
+            <p class="control has-icons-left">
+                <input class="input" type="password" id="password-signup" placeholder="Password">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+            </p>
+        </div>
+
+        <div class="field">
+            <div class="control">
+                <button type="submit" class="button is-link is-outlined has-text-light is-large is-responsive mt-4 mb-1">Sign Up</button>
+            </div>
+            <p class="has-text-light">Already have an account? <a class="has-text-link" href="/login">Log In</a></p>
+        </div>
+    </form>
+</section>
+
+{{!-- <form class="signup-form">
     <label class="label" for="username-signup">Username:</label><br>
     <input type="text" id="username-signup" class="input" placeholder="username"><br>
     <label class="label" for="email-signup">Email:</label><br>
@@ -9,6 +51,6 @@
         <button type="submit" class="submit button is-danger is-large is-outlined">Sign Up</button>
     </div>
     Already have an account? <a href="/login">Log In</a>
-</form>
+</form> --}}
 
 <script src="/js/signup.js"></script>
