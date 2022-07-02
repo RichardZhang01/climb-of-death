@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-    {{!-- <link rel="stylesheet" type="text/css" href="/css/jass.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css"> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
     
 <body>
 
-    <header class="level mt-3 is-size-4-mobile is-size-3-tablet is-size-1-desktop">
+    <header class="level mt-3 is-size-4-mobile is-size-3-tablet is-size-1-desktop main-header">
             <a href="/" class="link is-info level-item has-text-centered has-text-light"><h1>Climb of Death</h1></a>
     </header>
 
-    <nav class="level">
+    <nav class="level navigation">
         {{#if loggedIn}}
             <div class="level-item has-text-centered is-size-6-mobile is-size-4-tablet is-size-3-desktop">
                 <a class="link is-info has-text-light mx-2" id="logout">Log Out</a>
