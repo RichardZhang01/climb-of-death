@@ -1,8 +1,29 @@
 .main-header {
     margin-bottom: 0 !important;
+    font-family: DMsans,lato;
+    font-size: x-large;
 }
 
 .navigation {
     border-bottom: 1px solid rgb(36, 36, 36);
     padding-bottom: 20px;
+    font-family: Dosis;
+
 }
+
+.scenario{
+    font-family: Dosis,lato;
+
+}
+
+.choices{
+    border-radius:10px;
+}
+
+.choice{
+    font-family: fira sans condensed,lato;
+}
+
+/* .logout1 :hover{
+    color:red;
+} */

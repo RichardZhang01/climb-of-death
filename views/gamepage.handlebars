@@ -1,4 +1,4 @@
-<article class="columns is-centered mx-1">
+<article class="scenario columns is-centered mx-1">
     <div class="column is-half-desktop is-three-quarters-tablet has-text-light mx-2 is-size-6-mobile is-size-5-tablet is-size-4-desktop">
       {{{scenario.content}}}
     </div> 
@@ -7,10 +7,10 @@
 
   {{#each scenario.choices}}
   <div class="columns is-centered mx-3 my-2">
-    <a class="column is-half-desktop is-three-quarters-tablet has-background-light" href="/gamepage/{{child_scenario_id}}">
+    <a class="choices column is-half-desktop is-three-quarters-tablet has-background-light" href="/gamepage/{{child_scenario_id}}">
       <div class="is-flex-wrap is-size-6-mobile is-size-5-tablet is-size-4-desktop">
-        <div class="has-text-info has-text-centered">
-          {{{choice}}}
+        <div class="choice has-text-info has-text-centered">
+          {{choice}}
         </div>
       </div>
     </a>
