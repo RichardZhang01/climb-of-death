@@ -4,7 +4,7 @@
     </div> 
 </article>
 
-
+<div class="mb-6">
   {{#each scenario.choices}}
   <div class="columns is-centered mx-3 my-2">
     <a class="choices column is-half-desktop is-three-quarters-tablet has-background-light" href="/gamepage/{{child_scenario_id}}">
@@ -16,8 +16,9 @@
     </a>
   </div>    
   {{/each}}
+</div>
 
-
+<div class="mb-6">
   {{#if gameEnd}}
   <div class="columns is-centered mx-3 my-2">
     <a class="choices column is-half-desktop is-three-quarters-tablet has-background-light" href="/gamepage">
@@ -29,5 +30,5 @@
     </a>
   </div>
   {{/if}}
-
+</div>
 
