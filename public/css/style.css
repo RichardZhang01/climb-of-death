@@ -1,7 +1,6 @@
 .main-header {
     margin-bottom: 0 !important;
     font-family: DMsans,lato;
-    font-size: x-large;
 }
 
 .navigation {
@@ -18,12 +17,18 @@
 
 .choices{
     border-radius:10px;
+    box-shadow: 0 1px 2px 0 rgb(23, 112, 237), 0 2px 5px 0 rgba(20, 102, 196);
 }
 
 .choice{
     font-family: fira sans condensed,lato;
 }
 
-/* .logout1 :hover{
+/* .logout1 :focus{
     color:red;
 } */
+
+.choices:hover {
+    border: 3px solid rgb(20, 102, 196);
+ }
+
