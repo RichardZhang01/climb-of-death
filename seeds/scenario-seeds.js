@@ -130,7 +130,7 @@ const scenarioData = [
         
         <p class="mb-5">Uncontrollable and unprepared, you slide off the Mountain of Death only to plummet to your death.</p> 
         
-        <p class="mb-5"><strong>Try again! Maybe a new pathway will open up with the right decisions.</strong></p>`
+        <p class="mb-5"><b>Try again! Maybe a new pathway will open up with the right decisions.</b></p>`
     },
     {
         // Scenario 20
@@ -167,7 +167,7 @@ const scenarioData = [
         
         <p class="mb-5">Uncontrollable and unprepared, you slide off the Mountain of Death only to plummet to your death.</p> 
         
-        <p class="mb-5"><strong>Try again! Maybe a new pathway will open up with the right decisions.</strong></p>`
+        <p class="mb-5"><b>Try again! Maybe a new pathway will open up with the right decisions.</b></p>`
     },
     {
         // Scenario 26
@@ -175,7 +175,7 @@ const scenarioData = [
 
         <p class="mb-5">You place the stones in the incorrect order and the gargoyles come to life. The three pick you up and toss you off the Mountain of Death.</p> 
         
-        <p class="mb-5"><strong>Try again! Maybe another story pathway will open up for you.</strong></p>`
+        <p class="mb-5"><b>Try again! Maybe another story pathway will open up for you.</b></p>`
     },
     {
         // Scenario 27
@@ -191,7 +191,7 @@ const scenarioData = [
 
         <p class="mb-5">The gargoyles quicken their pace and reach out to grab you, but your momentum is too fast. The fall to the bottom of a rocky crag lasts for what seems to be a long time, but the crunch is a short-lived moment.</p> 
         
-        <p class="mb-5"><strong>You have died!</strong></p>`
+        <p class="mb-5"><b>You have died!</b></p>`
     },
     {
         // Scenario 29
@@ -259,7 +259,7 @@ const scenarioData = [
         
         <p class="mb-5">A hoard has appeared before your eyes and you begin to swim your way through the Scrooge McDuck wealth with no way of exiting the vault of treasures.</p>  
         
-        <p class="mb-5"><strong>Congratulations, you have reached one of six endings. </strong></p>`
+        <p class="mb-5"><b>Congratulations, you have reached one of six endings. </b></p>`
     },
     {
         // Scenario 35
@@ -275,7 +275,7 @@ const scenarioData = [
         
         <p class="mb-5">You look toward the mountaintop and remember when it appeared out of nowhere last year. Nowadays, adventurers and researchers come to visit the mountain, but the townsfolk of Kode know better.</p>
         
-        <p class="mb-5"><strong>Congratulations, you have reached one of six endings.</strong></p>`
+        <p class="mb-5"><b>Congratulations, you have reached one of six endings.</b></p>`
     },
     {
         // Scenario 36
@@ -307,7 +307,7 @@ const scenarioData = [
         
         <p class="mb-5">You have rescued the island, the village, the adventurers, and the researchers. You discovered the secret of the Mountain of Death!<p>
         
-        <p class="mb-5"><strong>Congratulations, you have reached the one successful ending. You have discovered the secret of the Mountain of Death and broken the curse!</strong></p>`
+        <p class="mb-5"><b>Congratulations, you have reached the one successful ending. You have discovered the secret of the Mountain of Death and broken the curse!</b></p>`
     },
     {
         // Scenario 37
@@ -321,7 +321,7 @@ const scenarioData = [
         
         <p class="mb-5">You are immortalized in gold at the peak of the Mountain of Death.</p>
         
-        <p class="mb-5"><strong>Congratulations, you have reached one of six endings.</strong></p>`
+        <p class="mb-5"><b>Congratulations, you have reached one of six endings.</b></p>`
     },
     {
         // Scenario 38
@@ -333,7 +333,7 @@ const scenarioData = [
         
         <p class="mb-5">The calm atmosphere of the mountaintop is unsettling at this moment. You experienced a long journey, but with no way down the mountain and a storm coming, you feel as though the end will be short.</p>
         
-        <p class="mb-5"><strong>Congratulations, you have reached one of six endings.</strong></p>`
+        <p class="mb-5"><b>Congratulations, you have reached one of six endings.</b></p>`
     },
     {
         // Scenario 39
@@ -343,7 +343,7 @@ const scenarioData = [
         
         <p class="mb-5">There is no escape from the mountain. You quickly succumb to the weather as hypothermia overtakes your body. The snow globe rolls out of your hands and lands perfectly where it once sat with snow softly falling on the replica island, mountain and village.</p>
         
-        <p class="mb-5"><strong>Congratulations, you have reached one of six endings.</strong></p>`
+        <p class="mb-5"><b>Congratulations, you have reached one of six endings.</b></p>`
     }
 ]
 

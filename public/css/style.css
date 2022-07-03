@@ -1,34 +1,43 @@
 .main-header {
-    margin-bottom: 0 !important;
-    font-family: DMsans,lato;
+    margin-bottom: 10px !important;
+    font-family: 'Splash', 'Saira Stencil One', 'Kumar One', cursive;
 }
 
-.navigation {
-    border-bottom: 1px solid rgb(36, 36, 36);
-    padding-bottom: 20px;
+.navigation { 
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.281);
+    padding-bottom: 25px;
     font-family: Dosis;
-
 }
 
 .scenario{
-    font-family: Dosis,lato;
+    font-family: Dosis, lato;
+    margin-top: 50px;
+}
 
+.title {
+    font-family: Dosis, lato;
+    font-weight: bold;
+    margin: 10px 0 10px 0 !important;
 }
 
 .choices{
     border-radius:10px;
     box-shadow: 0 1px 2px 0 rgb(23, 112, 237), 0 2px 5px 0 rgba(20, 102, 196);
+    border: 3px solid rgba(255, 255, 255, 0);
 }
 
 .choice{
-    font-family: fira sans condensed,lato;
+    font-family: fira sans condensed, lato;
 }
-
-/* .logout1 :focus{
-    color:red;
-} */
 
 .choices:hover {
     border: 3px solid rgb(20, 102, 196);
  }
 
+.forms {
+    margin-top: 50px;
+}
+
+.dash {
+    margin-top: 75px !important;
+}

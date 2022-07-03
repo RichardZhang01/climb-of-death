@@ -9,7 +9,7 @@ const userData = [
     {
         username: 'sach',
         email: 'sach@dev.com',
-        password: 'sachmilan'
+        password: 'devsachmilan'
     },
     {
         username: 'trent',
