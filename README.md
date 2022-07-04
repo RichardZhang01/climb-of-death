@@ -30,8 +30,11 @@ This application has a GitHub repository, **[click here](https://github.com/Rich
 >     Bcrypt
 >     Bulma
 >     CSS
+>     Connect-Session-Sequelize
 >     Dotenv
 >     Express
+>     Express-Handlebars
+>     Express-Session
 >     Handlebars
 >     Heroku
 >     HTML
