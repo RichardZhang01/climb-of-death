@@ -9,8 +9,8 @@ router.use(homeRoutes);
 router.use('/gamepage', gameRoutes);
 router.use('/dashboard', dashboardRoutes);
 
-router.use((req, res) => {
-  res.status(404).send('error');
+router.use('*', (req, res) => {
+  res.render('error', { loggedIn: req.session.loggedIn });
 });
 
 module.exports = router;
