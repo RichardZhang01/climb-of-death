@@ -2,95 +2,124 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-[![Tech-blog-app-button](https://www.herokucdn.com/deploy/button.svg)]()
+[![Tech-blog-app-button](https://www.herokucdn.com/deploy/button.svg)](https://climb-of-death.herokuapp.com/)
 
 
 ## Description
 
-Welcome to the Climb of Death! our choose your own adventure game. This full-stack web application crosses reading with user interaction. As a user, you get to choose your own unique storyline!
+Welcome to the *Climb of Death*, a choose your own adventure game. This full-stack web application crosses novel reading with user interaction. As a user, you get to choose your own unique storyline!
 
-This application is deployed to Heroku, **[click here]()**.
+This application is deployed to Heroku, **[click here](https://climb-of-death.herokuapp.com/)**.
 
 This application has a GitHub repository, **[click here](https://github.com/RichardZhang01/climb-of-death)**.
 
 ## Table of Contents
 
-1. [Technologies](#technologies)
+1. [Features & Tech](#features-and-tech)
 2. [Installation](#installation)
-2. [Usage](#usage)
-3. [Demonstration](#demonstration)
-4. [How to Contribute](#how-to-contribute)
-5. [Questions?](#questions)
-6. [Credits](#credits)
-7. [License](#license)
+3. [Usage](#usage)
+4. [Demonstration](#demonstration)
+5. [Tests](#tests)
+6. [How to Contribute](#how-to-contribute)
+7. [Questions?](#questions)
+8. [Credits](#credits)
+9. [License](#license)
 
-## <a id="technologies"></a>Features and Technologies
+## <a id="features-and-tech"></a>Features and Technologies
 
-  >     Full-stack
-  >     Model-view-controller
-  >     JavaScript
-  >     Node
-  >     MySQL
-  >     Sequelize
-  >     CSS & JASS
-  >     Express
-  >     Session
-  >     Handlebars
-  >     Bcrypt
-  >     Dotenv
-  >     HTML
-  >     Foundation 
-  >     Bulma
+>     Bcrypt
+>     Bulma
+>     CSS
+>     Dotenv
+>     Express
+>     Handlebars
+>     Heroku
+>     HTML
+>     JavaScript
+>     JawsDB
+>     Mobile-first design
+>     Model-view-controller
+>     MySQL
+>     Node
+>     Nodemon
+>     Sequelize
+>     Session
 
 ## <a id="installation"></a>Installation
 
-This application is deployed to Heroku, **[click here]()**.
+This application is deployed to Heroku, **[click here](https://climb-of-death.herokuapp.com/)**.
 
 If you want to download this project:
 
-  >     Open a command-line interface
-  >     Make a directory/folder 
-  >     Enter the directory/folder 
+  >     Open a command-line interface or terminal, such as Command Prompt, Git Bash, Powershell, Terminal
+  >>     Make a directory/folder
+  >>     Enter the directory/folder
+  >>     Clone the repository
   >     git clone https://github.com/RichardZhang01/climb-of-death.git 
-  >     OR (SSH key)
-  >     git clone git@github.com:RichardZhang01/climb-of-death.git 
-  >     If the GitHub repository has been updated then...
+  >>     If the GitHub repository has been updated since you last visited then...
   >     git pull
 
 ## <a id="usage"></a>Usage
 
-This application is deployed to Heroku, **[click here]()**.
+This application is deployed to Heroku, **[click here](https://climb-of-death.herokuapp.com/)**.
 
-Upon reaching the landing the page, the user is given a choice to sign up or login to the Climb of Death! The user must signup nad login for an account in order to play the choose your own adventure game. If the user already has an account, then they must login in order to to play the choose your own adventure game. 
+Upon loading the landing page, the user is given a choice to sign up or login to *Climb of Death*. The user must login in order to play *Climb of Death*. Once logged in, the user will be directed to the adventure start. 
 
-Once logged in, the user will be directed to an adventure page. A block of text will provide context to your scenario. Beneath the scenario, the user will have multiple buttons to click a choice. Upon clicking a choice, the user will be brought into a new scenario with different context and new button choices.
+The user must click buttons to start and play the adventure. A block of text will provide content for your scenario. 
+
+Beneath the scenario, the user will have one or many buttons representing choices. Upon clicking a choice, the user will be brought into a new scenario with new choices.
 
 As the user makes more choices the story will develop and feel unique to the user as their choices affect the decision tree and the story pathway.
 
-If the user wishes to end their session, then they can sign off/log out or close the browser or browser tab. 
+If the user wishes to end their session, then they can log out or close the browser or browser tab.
+
+Upon logging back in, the user will start on the page they left. 
 
 ## <a id="demonstration"></a> Demonstration
 
-This application is deployed to Heroku, **[click here]().**
+This application is deployed to Heroku, **[click here](https://climb-of-death.herokuapp.com/).**
 
 Screenshots:
 
-![Screenshot](./assets/images/screenshot-1.png)
+![Dashboard](./assets/images/dashboard.png)
+
+![Signup](./assets/images/signup.png)
+
+![Login](./assets/images/login.png)
+
+![Start](./assets/images/start.png) 
+
+![Adventure](./assets/images/adventure.png)
 
 Gifs:
 
-![Gif](./assets/images/gif-1.gif)
+![Gif](./assets/images/demo.gif)
+
+## <a id="tests"></a>Tests
+
+Thank you to all our friends and family who tested our deployed application!
+
+The deployed application has been beta tested on multiple devices (mobile and desktop) and browsers: 
+>Brave 
+>>Chrome
+>>>Microsoft Edge
+>>>>Mozilla Firefox
+>>>>>Safari
 
 ## <a id="how-to-contribute"></a>How to Contribute
 
-Reach out to us! Send an email with the subject "RE: Climb of Death - CYOA"
+Reach out to us if you would like to contribute to this application!
 
-Trent: trentdickson22@gmail.com
+Send an email with the subject "RE: Climb of Death - CYOA"
+
+To: Trent @ trentdickson22@gmail.com
 
 
 ## <a id="questions"></a>Questions?
 
-Are you interested in how to create your own "Choose Your Own Adventure"? Did a part of our project catch your interest and you would like more information on how to do it yourself?
+Are you interested in how to create your own "Choose Your Own Adventure"? 
+
+Did a part of our project catch your interest and you would like more information on how to do it yourself?
 
 Reach out to our development trio here: trentdickson22@gmail.com
 
